@@ -1,0 +1,16 @@
+import org.springframework.boot.SpringApplication;
+@RestController
+public class HelloWorld {
+	@GetMapping(value ="/display")
+	public String Display() {
+		return "SpringBoot"
+	}
+	
+	
+	
+	public static void main ()
+	{
+		SpringApplication.run(HelloWOrld.class, args)
+	}
+
+}

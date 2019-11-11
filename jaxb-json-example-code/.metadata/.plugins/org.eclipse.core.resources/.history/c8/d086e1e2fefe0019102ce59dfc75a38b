@@ -1,0 +1,23 @@
+package com.Example.Demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+@RestController
+@SpringBootApplication
+public class MyportalApplication {
+	
+	@CrossOrigin("http://localhost:9000")
+	@GetMapping("/access")
+	public String greeting() {
+		return "welocme to girmiti";
+	}
+
+
+	public static void main(String[] args) {
+		SpringApplication.run(MyportalApplication.class, args);
+	}
+
+}

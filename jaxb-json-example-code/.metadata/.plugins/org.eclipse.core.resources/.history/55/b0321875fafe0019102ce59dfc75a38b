@@ -1,0 +1,2 @@
+Server.port=9000
+spring.mvc.view.prefix=webapp/WEB-INF/view/
