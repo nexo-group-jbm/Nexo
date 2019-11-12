@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<aop-reference-model>
-<aop-project name="HelloWorld.com"/>
-<aop-project name="client-portal"/>
-<aop-project name="myportal-client"/>
-<aop-project name="myportal"/>
-</aop-reference-model>

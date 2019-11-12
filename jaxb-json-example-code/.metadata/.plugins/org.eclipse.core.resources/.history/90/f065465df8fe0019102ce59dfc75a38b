@@ -1,4 +1,0 @@
-Server.port=9000
-spring.mvc.view.prefix=/templates/
-spring.mvc.view.suffix=.jsp
- 
